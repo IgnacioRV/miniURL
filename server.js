@@ -18,7 +18,7 @@ var obj = {
 
 res.send(JSON.stringify(obj))
 })
-// TODO: Exactly the same but for http
+// TODO: The same but for http
 
 
 
