@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Minifyer landing page</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <h1 class = "title">URL Shortener</h1> 
+<h4 class = "subtitle"> Created by Ignacio Rasche for Free Code Camp </h4>
+<div class = "container well example">
+  <h3 class = "example_title">  Example of usage: </h3>
+  <h5 class = "example_title">
+    Create a new short link: <br>
+    <br>
+    https://minifyer.herokuapp.com/new/https://WWW.EXAMPLE.COM <br><br>
+    In the response page you will get a JSON document with the link you provided and the short link, for example: 
+   <br><br> {"old":"https://docs.mongodb.com","new":"https://minifyer.herokuapp.com/27371"}
+    <br> 
+    <br> You can also use this handy button below  :)
+  </h5>
+  
+</div>
+<div class = "textenter">
+ <input class = "btn" type = "text" placeholder = "enter url to minify" id = "input">
+  <button class = "btn" onClick = "send()"> Minify! </button>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

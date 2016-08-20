@@ -3,7 +3,7 @@ var app = express()
 var mongo = require('mongodb').MongoClient
 var dbUrl = process.env.MONGOLAB_URI
 app.set('port', (process.env.PORT || 5000));
-
+app.use(express.static('landingPage'))
 app.get("/new/https://:url", (req,res)=>{
 	console.log("ACCESSING LONG URL")
 	/*
@@ -95,8 +95,8 @@ app.get("/", (req, res)=>{
 	/*
 	TODO: Load landing page from an html file / static website 
 	*/
-	res.send("MAIN PAGE")
-	})
+
+})
 
 	app.listen(app.get('port'), function() {
 	  console.log('Node app is running on port', app.get('port'));

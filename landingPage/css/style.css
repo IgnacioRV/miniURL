@@ -1,0 +1,25 @@
+.title {
+  color:white;
+  margin: 50px auto 10px;
+  text-align:center
+}
+.example {
+  
+  background: rgba(245, 245, 245, 0.8);
+margin: 50px auto 10px;  
+}
+.example_title{
+  margin-top: 0px;
+  text-align: center;
+}
+.subtitle {
+  text-align:center
+}
+body {
+  background-color:#009683
+}
+.textenter{
+
+  margin: 0px auto;
+  text-align: center;
+}
